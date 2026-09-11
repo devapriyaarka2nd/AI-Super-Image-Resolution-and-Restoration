@@ -67,23 +67,23 @@ Super-resolution performance is evaluated using:
 
 - PSNR
 - SSIM
+### Super-Resolution Performance
+
+The trained SRCNN model was evaluated on the DIV2K validation set using PSNR and SSIM. Bicubic interpolation was used as the baseline.
+
+| Method | PSNR (dB) | SSIM |
+|---|---:|---:|
+| Bicubic | 26.1938 | 0.8600 |
+| SRCNN | **26.4896** | **0.8725** |
+
+SRCNN achieved an improvement of **+0.2958 dB in PSNR**
+and **+0.0125 in SSIM** over bicubic interpolation.
 
 The SRCNN reconstruction is compared against
 bicubic interpolation.
 
 ## Results
 
-### Super-Resolution
-
-[Insert comparison image]
-
-### Colorization
-
-[Insert colorization image]
-
-### Complete Restoration Pipeline
-
-[Insert final pipeline image]
 
 ## Technologies
 
